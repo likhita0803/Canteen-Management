@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition Test</title>
+  <link rel="stylesheet" href="/software.css">
+</head>
+<body>
+
+  <div class="container">    
+    <h1>Nutrition Test</h1>
+    <form id="nutritionForm">
+      <div class="question">
+        <label for="q1">Do you have any food allergies?</label>
+        <input type="text" id="q1" name="q1" placeholder="Your answer...">
+      </div>
+      <div class="question">
+        <label for="q2">How many servings of fruits do you eat daily?</label>
+        <input type="number" id="q2" name="q2" min="0" placeholder="Number of servings">
+      </div>
+      <div class="question">
+        <label for="q3">Do you have any dietary restrictions?</label>
+        <input type="text" id=".
+        q3" name="q3" placeholder="Your answer...">
+      </div>
+      <div class="question">
+        <label for="q4">How often do you consume processed foods?</label>
+        <select id="q4" name="q4">
+          <option value="daily">Daily</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="rarely">Rarely</option>
+          <option value="never">Never</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label for="q5">Are you currently following any specific diet plan?</label>
+        <input type="text" id="q5" name="q5" placeholder="Your answer...">
+      </div>
+      <div class="submit">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <script src="/software.js"></script>
+</body>
+</html>

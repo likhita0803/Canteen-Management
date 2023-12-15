@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/campus .css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">MBA Canteen</h1>
+                <p class="paragraph">Ditch the lines,Embrace the bites</p>
+                <button class="button" onclick="display('sectionFavouritePlaces')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">Choose what to eat</h1>
+            <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionTajMahalDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Icecream stall</h1>
+                    <p class="favourite-place-card-description">
+                        Buy
+                    </p>
+                </div>
+                <img src="https://th.bing.com/th/id/OIP.kIuQWr9nfu2u_KZlS9O-sAHaL2?rs=1&pid=ImgDetMain" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-place-card-heading">Manchurian stall</h1>
+                    <p class="favourite-place-card-description">
+                        Buy
+                    </p>
+                </div>
+                <img src="https://1.bp.blogspot.com/-VCkjsS1Tfmo/XgzLILEh5oI/AAAAAAAAACA/Yg7TKYf6VYUlNm33vg35es80Zq3yRMJLwCLcBGAsYHQ/s1600/manchuri.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-place-card-heading">Frankie stall</h1>
+                    <p class="favourite-place-card-description">
+                        Buy
+                    </p>
+                </div>
+                <img src="https://i.pinimg.com/originals/8d/b1/3d/8db13d03ed572c82a82e848d5194c766.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="favourite-place-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-place-card-heading">Soft drinks stall</h1>
+                    <p class="favourite-place-card-description">
+                        Buy
+                    </p>
+                </div>
+
+                <img src="https://th.bing.com/th/id/OIP.yYQ7kkYcOG70mOAnOtScEQHaGw?rs=1&pid=ImgDetMain" class="favourite-place-card-image" />
+
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+
+    
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
